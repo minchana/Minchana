@@ -1,0 +1,40 @@
+h1{
+	color: red;
+	text-align: left;
+
+}
+ul li{
+	font-size: 18px;
+	color: green;
+}
+body{
+	h1   {color: blue;}
+}
+.main-menu{
+	background-color: aqua;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+.con{
+	background-color: aqua;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+.sug{
+	background-color: aqua;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+.ma{
+	background-color: aqua;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}

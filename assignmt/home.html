@@ -1,0 +1,97 @@
+<DOCTYPE html>
+	<html>
+	<head>
+	</head>
+	<body background="i.jpg">
+		<nav>
+		<a class="main-menu" href="home.html">Home</a>
+		<a class="con" href="contact.html">Contact</a>
+		<a class="sug" href="suggest.html">Suggest</a>
+		<a class="ma"href="assign.html">Main</a>
+		</nav>
+		<!-- <marquee direction="left">.<br> -->
+		</marquee>
+		<marquee direction="left" <h1><font size="8" color="blue"><b>A little bliss in every bite,A special cake for a special day</b><br><B>Art of cakes,Baked fresh for you.</h1></B></font></marquee>
+
+
+
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="c.jpg" alt="Smiley" width="200" height="200">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="coc.jpg" alt="Smiley" width="200" height="200">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="bac.jpg" alt="Smiley" width="200" height="200">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="str.jpg" alt="Smiley" width="200" height="200">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="ch.jpg" alt="Smiley" width="200" height="200">
+
+		<script>
+function bigImg(x) {
+    x.style.height = "400px";
+    x.style.width = "400px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<h3><font color="green">Select Size from the list </font></h3>
+	<select id="mySelect" onchange="myFunction()">
+		<option value="Small">Small</option>
+			<option value="Medium">Medium</option>
+				<option value="Large">Large</option>
+		</select>
+		<p><font color="red"><B>The Cake you have selected is</B></font></p>
+		<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySelect").value;
+    document.getElementById("demo").innerHTML = "You selected: " +x;
+}
+</script>
+	
+
+		<!-- <font><h1>
+			<label>Select Size</label><br>
+			<select>
+				<option>--Select Size--</option>
+				<option>Small</option>
+				<option>Medium</option>
+				<option>Large</option>
+				</select>
+				</h1>
+			</font> -->
+			<table border= "1"><h1>
+				<tr>
+					<th><font color="Red">Cakes</th></font>
+					<th><font color="Red">RATE</th></font>
+				</tr>
+				<tr>
+					<td><B><font color="blue">Cup Cake</B></td></font>
+					<td><B><font color="blue">$20</B></td></font>
+					<tr>
+						<td><B><font color="blue"> Chocolate Cake</B></td></font>
+						<td><B><font color="blue">$30</B></td></font>
+						<tr>
+							<tr>
+						<td><B><font color="blue">BlackBerry Cake</B></td></font>
+						<td><B><font color="blue">$50</B></td></font>
+						<tr>
+							<tr>
+						<td><B><font color="blue">Strawbeery Cake</B></td></font>
+						<td><B><font color="blue">$80</B></td></font>
+						<tr>
+							<tr>
+						<td><B><font color="blue"> Cake</B></td></font>
+						<td><B><font color="blue">$90</B></td></font>
+						<tr>
+						</h1>
+				</table>
+
+	<!-- <h2>Magic cake</h2>
+		<p>Magic Cake has a seemingly simple batter, that is mixed and baked as a single entity. (See link for the full recipe and method). When it is baked, it separates into three distinct layers: A dense bottom layer. A custard middle layer
+		Magic Cake! Where do I begin? I started out very skeptical when I saw this cake on foodepix.com. The name intrigued me at first. I had to click to see the recipe just to see why this cake is called magic cake, because there really is no such thing. Unfortunately the recipe was in another language, but there’s always google translator, the only problem is you know you always lose something in the translation. But not to worry, it was enough for me to realize why this cake is called magic cake.If you look closely enough you can see this cake has 3 layers, with a layer of custard in the middle. </p>
+		<p>The way it looks it almost reminded me of a Napoleon dessert. So at first sight you might think this cake is a lot of work where you make the cake separately and the custard separately and you cut the cake in half and put custard in the middle and so on. Not at all! This truly is a magic cake and what happens is pure magic. OK maybe not, but close enough.</p>
+		<img src="ccc.jpg"> -->
+		
+</body>
+
+	</html>
